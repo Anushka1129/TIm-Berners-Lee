@@ -1,0 +1,45 @@
+body{
+    msrgin:0; 
+    background: linear-gradient(aqua 0%,lightgreen 50%,aqua 100%)
+}
+.profileimage{
+    width: 175px;
+    margin-bottom:60px;
+    border-radius:50%;
+}
+#name{
+    font-family: cursive;
+    font-size:30px;
+    color:navy;
+}
+p{
+    color:dodgerblue;
+    font-size:20px;
+    font-family:fantasy;
+}
+h1{
+    color:navy;
+    font-family:cursive;
+}
+.menu{
+    font-family: cursive;
+    color:darkblue;
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links{
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size;16px;
+}
+.links:hover {
+    background-color: darkcyan;
+    font-size:23px;
+}
